@@ -2,7 +2,8 @@
 // Q1.
 const sellTickets = 6450;
 const ticketPrice = 15;
-console.log("The theater sold", sellTickets / ticketPrice, "tickets");
+const soldTickets = sellTickets / ticketPrice;
+console.log(soldTickets);
 // Q2.
 const SylviaWeeksIncome = 500;
 const yearIncome = SylviaWeeksIncome * 4 * 12;
